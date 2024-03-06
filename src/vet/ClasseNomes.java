@@ -1,4 +1,4 @@
-package vet;
+package veto;
 
 import java.util.Arrays;
 
