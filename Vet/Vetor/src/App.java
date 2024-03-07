@@ -12,7 +12,7 @@ public class App {
     public void ImprimirAluno(){
 
         for(String n: aluno){
-        System.out.println("aluno" + n);
+        System.out.println("aluno: " + n);
 }
     }
 }
