@@ -1,5 +1,18 @@
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Sofri muito e estou aqui agora");
+    private String aluno[] = new String[10];
+
+    public void setAluno(String[] aluno) {
+        this.aluno = aluno;
+    }
+
+    public String[] getAluno() {
+        return aluno;
+    }
+
+    public void ImprimirAluno(){
+
+        for(String n: aluno){
+        System.out.println("aluno" + aluno);
+}
     }
 }
