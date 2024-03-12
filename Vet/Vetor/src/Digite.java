@@ -7,6 +7,8 @@ public class Digite {
         Nome nome = new Nome();
         String n[] = new String[3];
 
+        System.out.println("Café");
+
         Scanner input = new Scanner(System.in);
 
         for(int i=0; i<3; i++){
