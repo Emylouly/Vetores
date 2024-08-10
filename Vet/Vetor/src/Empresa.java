@@ -1,30 +1,40 @@
-import java.util.Arrays;
+public class Empresa {
 
-public class Nome {
+    private String cnpj;
+    private String nome;
+    private String telefone;
 
-    private String nome[] = new String[3];
+    public Empresa(String cnpj, String nome, String telefone){
 
-    public void setNome(String[] nome) {
+        super();
+        this.cnpj = cnpj;
         this.nome = nome;
+        this.telefone = telefone;
+
     }
 
-    public String[] getNome() {
+    public String getCnpj() {
+        return cnpj;
+    }
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+    public String getNome() {
         return nome;
     }
-
-
-    public void Imprimir(){
-
-
-        Arrays.sort(nome);
-
-        for(String n: nome){
-
-            System.out.println(n);
-
-        }
-
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public String getTelefone() {
+        return telefone;
+    }
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }
 
+    @Override
+    public String toString() {
+        return "Empresa [cnpj=" + cnpj + ", nome=" + nome + ", telefone=" + telefone + "]";
+    }
 
 }
