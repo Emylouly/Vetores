@@ -31,7 +31,6 @@ public class Principal {
         fuc.cadastroFuncionario(fun3);
         fuc.cadastroFuncionario(fun4);
         fuc.cadastroFuncionario(fun5);
-        fuc.cadastroFuncionario(fun6);
 
         System.out.println(Arrays.toString(reg.listar()));
         System.out.println(Arrays.toString(fuc.listar()));
