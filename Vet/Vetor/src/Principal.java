@@ -4,7 +4,6 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        System.out.println("cafe");
         
         Empresa emp1 = new Empresa("213435", "Boa Sorte", "2345");
         Empresa emp2 = new Empresa("343556", "Café Jao", "45667");
@@ -17,7 +16,6 @@ public class Principal {
         Funcionario fun4 = new Funcionario("685674578", "Lucas", "1223345", "7643231", emp2);
 
         Funcionario fun5 = new Funcionario("eryey", "Mari", "1223345", "7643231", emp3);
-        Funcionario fun6 = new Funcionario("esgsg", "Jose", "1223345", "7643231", emp3);
 
         RegraNegocioEmpresa reg = new RegraNegocioEmpresa();
         RegraNegocioFuncionario fuc = new RegraNegocioFuncionario();
