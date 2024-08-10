@@ -3,6 +3,8 @@ import java.util.Arrays;
 public class Principal {
 
     public static void main(String[] args) {
+
+        System.out.println("cafe");
         
         Empresa emp1 = new Empresa("213435", "Boa Sorte", "2345");
         Empresa emp2 = new Empresa("343556", "Café Jao", "45667");
